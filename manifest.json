@@ -1,0 +1,19 @@
+{
+  "background": {
+      "scripts": ["bypass.js"]
+  },
+
+  "description": "Lengthens the youtu.be link (useful for countries with this domain blocked)",
+  "manifest_version": 2,
+  "name": "youtu.be bypasser",
+  "permissions": [
+    "tabs"
+  ],
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "update_url": "https://github.com/yanNotDev/youtu.be-bypass/blob/main/manifest.json"
+    }
+  }
+
+}
